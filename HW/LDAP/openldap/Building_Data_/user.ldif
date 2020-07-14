@@ -1,0 +1,60 @@
+dn: cn=0516320,ou=People,dc=0516320,dc=nasa
+uid: 0516320
+cn: 0516320
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+userPassword: user
+loginShell: /bin/tcsh
+uidNumber: 3001
+gidNumber: 3001
+homeDirectory: /home/rhome/0516320
+gecos: 0516320
+
+dn: cn=ta,ou=People,dc=0516320,dc=nasa
+uid: ta
+cn: ta
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: publicKeyLogin
+objectClass: ludouCredit
+userPassword: gMsQA/xXw1EcUj09bQ7sMDvasbtrZ+xIjInbYFbF/14=
+loginShell: /bin/tcsh
+uidNumber: 3000
+gidNumber: 3000
+ludouCredit: 100
+sshPublicKey: AAAAB3NzaC1yc2EAAAADAQABAAACAQCwy0qhML4kj4mWeqi671+2yvhlh13kZ/MoUzmkyt5KjXHro5KzH5MGeDp6aKuPu2M1B9GCn3logTfRJtK/CvIZ/F1UdkI97Cb1wyyMCUHfXh0910nOPOLvlYiQNIs8SgA9p7dMOSI83svqzh9hbgOE1Ie5SsHEze3XhsE/8oAYNdtFSMrRdGYtFRabplXmXnCHI1iVWoAZ/l4LRYihFEebWuSmNSgSCilr9cc4OgIZbDrWOxS9frXWTcWZand881/5K6VKitXh8NS4alxgXNdeRU1Zmp89hkdT/s0khp3DKVt5V7lC2RO8V8hJ/kBMJJESdmxfbfZf/QOGiMaDOq9/wBLHCMGHaF0lKH8wPJclWFgGXOTLeQRzTcdOc4o67k57jBxsgEpb0ZA7k9yYni7MCqbLeMaqGMsfJAF9+NzrR8nA4DcW2xusMJr7uXkVvHNofBTHVusN3JTpvZOw2P3+a7BGhE/eHc8Bzhs5CYnckXVejz5vSzYyXpzja6mjrYihv+U1BzvKMqW1FneiW/h7AYVQOY5FYrYgUOp6sVxwe3EuFdumCpHSbAqL1/eoAwoWA/xBMvX/HuVT6AzHkmPdbjjnWBuxMk4pg0Te9EuGUwc8sfq16dPe7DuxOA7bWUT+73O5YrJbs4Dhxr7WtPFJJXCkB4VTsNxNnfu/3f9yIQ==
+homeDirectory: /home/rhome/ta
+gecos: ta
+
+dn: cn=taipeirioter,ou=People,dc=0516320,dc=nasa
+uid: taipeirioter
+cn: taipeirioter
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+objectClass: publicKeyLogin
+objectClass: ludouCredit
+userPassword: gMsQA/xXw1EcUj09bQ7sMDvasbtrZ+xIjInbYFbF/14=
+loginShell: /bin/tcsh
+uidNumber: 4000
+gidNumber: 4000
+ludouCredit: 100
+sshPublicKey: AAAAB3NzaC1yc2EAAAADAQABAAACAQCwy0qhML4kj4mWeqi671+2yvhlh13kZ/MoUzmkyt5KjXHro5KzH5MGeDp6aKuPu2M1B9GCn3logTfRJtK/CvIZ/F1UdkI97Cb1wyyMCUHfXh0910nOPOLvlYiQNIs8SgA9p7dMOSI83svqzh9hbgOE1Ie5SsHEze3XhsE/8oAYNdtFSMrRdGYtFRabplXmXnCHI1iVWoAZ/l4LRYihFEebWuSmNSgSCilr9cc4OgIZbDrWOxS9frXWTcWZand881/5K6VKitXh8NS4alxgXNdeRU1Zmp89hkdT/s0khp3DKVt5V7lC2RO8V8hJ/kBMJJESdmxfbfZf/QOGiMaDOq9/wBLHCMGHaF0lKH8wPJclWFgGXOTLeQRzTcdOc4o67k57jBxsgEpb0ZA7k9yYni7MCqbLeMaqGMsfJAF9+NzrR8nA4DcW2xusMJr7uXkVvHNofBTHVusN3JTpvZOw2P3+a7BGhE/eHc8Bzhs5CYnckXVejz5vSzYyXpzja6mjrYihv+U1BzvKMqW1FneiW/h7AYVQOY5FYrYgUOp6sVxwe3EuFdumCpHSbAqL1/eoAwoWA/xBMvX/HuVT6AzHkmPdbjjnWBuxMk4pg0Te9EuGUwc8sfq16dPe7DuxOA7bWUT+73O5YrJbs4Dhxr7WtPFJJXCkB4VTsNxNnfu/3f9yIQ==
+homeDirectory: /home/rhome/taipeirioter
+gecos: taipeirioter
+
+dn: cn=totp,ou=People,dc=0516320,dc=nasa
+uid: totp
+cn: totp
+objectClass: account
+objectClass: posixAccount
+objectClass: top
+userPassword: {TOTP1}`printf ${WG_KEY} | base32`
+loginShell: /bin/tcsh
+uidNumber: 4001
+gidNumber: 4001
+homeDirectory: /home/rhome/totp
+gecos: totp
+

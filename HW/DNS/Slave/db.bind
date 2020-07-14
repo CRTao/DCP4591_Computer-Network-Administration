@@ -1,0 +1,11 @@
+$TTL          259200
+@             CH SOA ns2.0516320.nasa. host.ns2.0516320.nasa. (
+              2020042902 ;Serial
+              10800      ;Refresh
+              900        ;Retry
+              1209600    ;Expire
+              3600 )
+      ; Name Server
+              CH NS     ns2.0516320.nasa.
+
+version       CH TXT "Name Server 2"

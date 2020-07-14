@@ -1,0 +1,39 @@
+
+attributetype ( 
+	1.3.6.1.4.1.0618.2.3.001
+        NAME 'ludoucredit'
+        DESC 'Credit point for accessing workstation'
+	EQUALITY integerMatch
+	ORDERING integerOrderingMatch
+        SYNTAX 1.3.6.1.4.1.1466.115.121.1.27
+ 	)
+
+attributetype (
+        1.3.6.1.4.1.0618.2.3.002
+        NAME 'sshPublicKey'
+        DESC 'Public Key for SSH connection'
+        EQUALITY caseExactMatch
+        SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+        )
+
+
+objectClass ( 
+	1.3.6.1.4.1.0618.2.4.101
+        NAME 'ludouCredit'
+	DESC 'Object for ludoucredit'
+	SUP top
+        AUXILIARY
+        MUST ( uid $ ludoucredit )
+        )
+
+objectClass (
+        1.3.6.1.4.1.0618.2.4.102
+        NAME 'publicKeyLogin'
+        DESC 'Object for sshPublicKey'
+        SUP top
+        AUXILIARY
+	MUST ( uid $ sshPublicKey )
+        )
+
+
+

@@ -1,0 +1,20 @@
+$TTL         259200
+@            IN SOA ns1.0516320.nasa. host.ns1.0516320.nasa. (
+             2020042901; serial
+             10800     ; Refresh
+             900       ; Retry
+             1209600   ; Expire
+             3600 )    ; Minimum  
+     ; Name Server
+             IN NS     ns1.0516320.nasa.
+             IN A      10.113.29.1   
+             IN NS     ns2.0516320.nasa.
+             IN A      10.113.29.2
+     ; Server Address
+
+ns1          IN A      10.113.29.1
+ns2          IN A      10.113.29.2
+router       IN A      10.113.29.254
+agent        IN A      10.113.29.129
+nasa         IN CNAME  nasa.cs.nctu.edu.tw.
+web          IN CNAME  agent

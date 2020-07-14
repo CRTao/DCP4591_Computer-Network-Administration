@@ -1,0 +1,19 @@
+$TTL          259200
+@             IN SOA ns1.0516320.nasa. host.ns1.0516320.nasa.(
+              2020042901
+              10800      
+              900        
+              1209600    
+              3600 )     
+     ; Name Server
+              IN NS ns1.0516320.nasa.
+              IN NS ns2.0516320.nasa.
+     ; PTR
+1             IN PTR ns1.0516320.nasa.
+2             IN PTR ns2.0516320.nasa.
+129           IN PTR agent.0516320.nasa.
+254           IN PTR router.0516320.nasa.
+87            IN PTR view.0516320.nasa.              
+99            IN PTR mail.0516320.nasa.
+11            IN PTR ldap1.0516320.nasa.
+12            IN PTR ws1.0516320.nasa.

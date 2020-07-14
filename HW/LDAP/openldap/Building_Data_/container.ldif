@@ -1,0 +1,17 @@
+dn: dc=0516320,dc=nasa
+dc: 0516320
+objectClass: top
+objectClass: domain
+objectClass: domainRelatedObject
+associatedDomain: 0516320.nasa
+
+dn:ou=Group, dc=0516320, dc=nasa
+objectclass: top
+objectclass: organizationalUnit
+ou: Group
+
+dn:ou=People, dc=0516320,dc=nasa
+objectclass: top
+objectclass: organizationalUnit
+ou: People
+

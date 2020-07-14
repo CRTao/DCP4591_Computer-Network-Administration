@@ -1,0 +1,13 @@
+$TTL         259200
+@            CH SOA ns1.0516320.nasa. lingyt.ns1.0516320.nasa. (
+             2020042901; serial
+             10800     ; Refresh
+             900       ; Retry
+             1209600   ; Expire
+             3600 )    ; Minimum  
+     
+     ; Name Server
+             CH NS     ns1.0516320.nasa.
+             
+version      CH TXT    "Name Server 1"
+

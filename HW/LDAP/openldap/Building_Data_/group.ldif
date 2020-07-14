@@ -1,0 +1,32 @@
+dn: cn=0516320,ou=Group,dc=0516320,dc=nasa
+objectClass: posixGroup
+objectClass: top
+cn: 0516320
+userPassword: {crypt}*
+gidNumber: 3001
+
+dn: cn=ta,ou=Group,dc=0516320,dc=nasa
+objectClass: posixGroup
+objectClass: top
+cn: ta
+userPassword: {crypt}*
+gidNumber: 3000
+
+dn: cn=taipeirioter,ou=Group,dc=0516320,dc=nasa
+objectClass: posixGroup
+objectClass: top
+cn: taipeirioter
+userPassword: {crypt}*
+gidNumber: 4000
+
+dn: cn=totp,ou=Group,dc=0516320,dc=nasa
+objectClass: posixGroup
+objectClass: top
+cn: totp
+userPassword: {crypt}*
+gidNumber: 4001
+
+
+
+
+
